@@ -19,9 +19,9 @@ const Question23 = () => {
       <button onClick={() => setNum(num + 1)} className="px-4 py-2 bg-blue-500 text-white rounded mr-2">
         Calc ({num})
       </button>
-      <button onClick={() => setOther(other + 1)} className="px-4 py-2 bg-gray-500 text-white rounded">
+      {/* <button onClick={() => setOther(other + 1)} className="px-4 py-2 bg-gray-500 text-white rounded">
         Other ({other})
-      </button>
+      </button> */}
     </div>
   );
 };

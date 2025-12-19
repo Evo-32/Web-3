@@ -62,7 +62,7 @@ const App = () => {
         <Card>
           <p className="text-2xl font-semibold mb-4">Question 3</p>
           <Three text="Click Me" color="bg-blue-500 "/>
-          <Three text="Click here" color="bg-p-urple-500 "/>
+          <Three text="Click here" color="bg-purple-500 "/>
         </Card>
 
         <Card>

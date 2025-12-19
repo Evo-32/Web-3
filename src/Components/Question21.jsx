@@ -24,12 +24,12 @@ const Question21 = () => {
         Change Prop ({prop})
       </button>
 
-      <button
+      {/* <button
         onClick={() => setOther(other + 1)}
         className="px-4 py-2 bg-gray-500 text-white rounded"
       >
         Other State ({other})
-      </button>
+      </button> */}
     </div>
   );
 };

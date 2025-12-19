@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route, Link, useParams } from "react-router-dom";
+import Home from './Home'
+import About from "./About";
+import Contact from "./Contact";
+import Product from "./Product";
+import Blog from "./Blog";
+import NotFound from "./Notfound";
 
-const Home = () => <div>🏠You just landed This is the home page</div>;
-const About = () => <div>ℹ️ Know more about us</div>;
-const Contact = () => <div>📧You can contact us on our socials</div>;
-const Product = () => {
-  const { id } = useParams();
-  return <div>📦 Product Details - ID: {id}</div>;
-};
-const Blog = () => <div>📝 Blog Page</div>;
-const NotFound = () => <div className="text-red-500">❌ 404 - Page Not Found</div>;
+
+
 
 const Router = () => {
   return (
