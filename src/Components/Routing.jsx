@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Link, useParams } from "react-router-dom";
 
-const Home = () => <div>🏠 Home Page</div>;
-const About = () => <div>ℹ️ About Page</div>;
-const Contact = () => <div>📧 Contact Page</div>;
+const Home = () => <div>🏠You just landed This is the home page</div>;
+const About = () => <div>ℹ️ Know more about us</div>;
+const Contact = () => <div>📧You can contact us on our socials</div>;
 const Product = () => {
   const { id } = useParams();
   return <div>📦 Product Details - ID: {id}</div>;
